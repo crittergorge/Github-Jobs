@@ -479,6 +479,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Github Jobs/Github Jobs-Prefix.pch";
 				INFOPLIST_FILE = "Github Jobs/Github Jobs-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.perfectly-crooked.Github-Jobs";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				VALIDATE_PRODUCT = YES;
@@ -499,6 +500,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Github Jobs/Github Jobs-Prefix.pch";
 				INFOPLIST_FILE = "Github Jobs/Github Jobs-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.perfectly-crooked.Github-Jobs";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				VALIDATE_PRODUCT = NO;
@@ -603,6 +605,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Github Jobs/Github Jobs-Prefix.pch";
 				INFOPLIST_FILE = "Github Jobs/Github Jobs-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.perfectly-crooked.Github-Jobs";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				VERSIONING_SYSTEM = "apple-generic";

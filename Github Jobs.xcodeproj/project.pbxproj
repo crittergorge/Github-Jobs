@@ -38,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		436A98086AE24DF5AD07DEF7 /* Pods-Github Jobs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Github Jobs.xcconfig"; path = "Pods/Pods-Github Jobs.xcconfig"; sourceTree = "<group>"; };
+		24B8F9F036DB9DD06BB26882 /* Pods-Github Jobs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Github Jobs.release.xcconfig"; path = "Pods/Target Support Files/Pods-Github Jobs/Pods-Github Jobs.release.xcconfig"; sourceTree = "<group>"; };
 		621B2AAA18D63B830066357D /* Github Jobs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Github Jobs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		621B2AAD18D63B830066357D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		621B2AAF18D63B830066357D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,6 +63,8 @@
 		6273A0A219413B0300D3C722 /* PCSJobOffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PCSJobOffer.m; path = ../PCSJobOffer.m; sourceTree = "<group>"; };
 		6273A0A619414BEA00D3C722 /* PCSJobOfferTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCSJobOfferTests.m; sourceTree = "<group>"; };
 		6273A0A819414FF000D3C722 /* job.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = job.json; sourceTree = "<group>"; };
+		B7E2119D5B1D8FC4B3C681D5 /* Pods-Github Jobs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Github Jobs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Github Jobs/Pods-Github Jobs.debug.xcconfig"; sourceTree = "<group>"; };
+		BA6DD92DB8395B6FCD4BD742 /* Pods-Github Jobs.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Github Jobs.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-Github Jobs/Pods-Github Jobs.adhoc.xcconfig"; sourceTree = "<group>"; };
 		E8F09569F1064065ABC23402 /* libPods-Github Jobs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Github Jobs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -98,7 +100,7 @@
 				621B2AD218D63B830066357D /* Github JobsTests */,
 				621B2AAC18D63B830066357D /* Frameworks */,
 				621B2AAB18D63B830066357D /* Products */,
-				436A98086AE24DF5AD07DEF7 /* Pods-Github Jobs.xcconfig */,
+				EA2856ED4C14D3EB3EBD76CF /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -171,6 +173,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		EA2856ED4C14D3EB3EBD76CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7E2119D5B1D8FC4B3C681D5 /* Pods-Github Jobs.debug.xcconfig */,
+				BA6DD92DB8395B6FCD4BD742 /* Pods-Github Jobs.adhoc.xcconfig */,
+				24B8F9F036DB9DD06BB26882 /* Pods-Github Jobs.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -183,6 +195,7 @@
 				621B2AA718D63B830066357D /* Frameworks */,
 				621B2AA818D63B830066357D /* Resources */,
 				AF3593D8C7BC48429BEA8B8D /* Copy Pods Resources */,
+				F588904D9462F596187942F4 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -222,7 +235,7 @@
 				ORGANIZATIONNAME = "Perfectly Cooked";
 				TargetAttributes = {
 					621B2AA918D63B830066357D = {
-						DevelopmentTeam = 24BQCVN9W2;
+						DevelopmentTeam = 6PY39SG6KP;
 					};
 					621B2ACA18D63B830066357D = {
 						TestTargetID = 621B2AA918D63B830066357D;
@@ -298,7 +311,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-Github Jobs-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Github Jobs/Pods-Github Jobs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F588904D9462F596187942F4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Github Jobs/Pods-Github Jobs-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -440,7 +468,7 @@
 		};
 		621B2ADD18D63B830066357D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 436A98086AE24DF5AD07DEF7 /* Pods-Github Jobs.xcconfig */;
+			baseConfigurationReference = B7E2119D5B1D8FC4B3C681D5 /* Pods-Github Jobs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -461,7 +489,7 @@
 		};
 		621B2ADE18D63B830066357D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 436A98086AE24DF5AD07DEF7 /* Pods-Github Jobs.xcconfig */;
+			baseConfigurationReference = 24B8F9F036DB9DD06BB26882 /* Pods-Github Jobs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -564,7 +592,7 @@
 		};
 		6286778918DF308A0095DD45 /* Adhoc */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 436A98086AE24DF5AD07DEF7 /* Pods-Github Jobs.xcconfig */;
+			baseConfigurationReference = BA6DD92DB8395B6FCD4BD742 /* Pods-Github Jobs.adhoc.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
